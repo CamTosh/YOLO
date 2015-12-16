@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main(int argc, char **argv) {
-	printf("YOLO\n");
-	remove(argv[0]);
+int main() {
+    FILE* file = "yolo.c";
+	printf("YOLO");
+	remove(file);
 	return 0;
 }
